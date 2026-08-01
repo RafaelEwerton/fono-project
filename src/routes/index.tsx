@@ -30,7 +30,7 @@ const WHATSAPP =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dra. Marina Alves | Fonoaudióloga em São Paulo" },
+      { title: "Dra. Marina Alves | Fonoaudióloga em João Pessoa" },
       {
         name: "description",
         content:
@@ -230,7 +230,7 @@ function Hero() {
           </h1>
           <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
             Avaliação e terapia fonoaudiológica para crianças, adultos e idosos, em um espaço
-            tranquilo e acolhedor na Vila Mariana, em São Paulo.
+            tranquilo e acolhedor em Gramame, João Pessoa.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a
@@ -250,9 +250,9 @@ function Hero() {
           </div>
           <dl className="mt-9 flex flex-wrap gap-8">
             {[
-              ["12 anos", "de experiência clínica"],
-              ["+800", "atendimentos realizados"],
-              ["Presencial", "e online"],
+              ["7 anos", "de experiência clínica"],
+              ["+200", "atendimentos realizados"],
+              ["Online", "e Presencial"],
             ].map(([n, l]) => (
               <div key={n}>
                 <dt className="font-display text-2xl font-bold text-primary">{n}</dt>
@@ -346,7 +346,7 @@ function Servicos() {
         <SectionTitle
           eyebrow="Serviços"
           title="Cuidado para cada fase da vida"
-          text="Atendimentos presenciais na Vila Mariana e sessões online para todo o Brasil."
+          text="Atendimentos presenciais em Gramame e sessões online para todo o Brasil."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {servicos.map((s) => (
@@ -475,11 +475,11 @@ function Contato() {
               <Mail className="h-5 w-5 shrink-0 text-primary" /> contato@marinaalvesfono.com.br
             </li>
             <li className="flex items-center gap-3">
-              <MapPin className="h-5 w-5 shrink-0 text-primary" /> Rua das Acácias, 120 — Vila
-              Mariana, São Paulo/SP
+              <MapPin className="h-5 w-5 shrink-0 text-primary" /> Rua das Acácias, 120 - Gramame,
+              João Pessoa/PB
             </li>
             <li className="flex items-center gap-3">
-              <Clock className="h-5 w-5 shrink-0 text-primary" /> Seg a sex, das 8h às 19h
+              <Clock className="h-5 w-5 shrink-0 text-primary" /> Seg a sex, das 9h às 18h
             </li>
           </ul>
         </div>
@@ -544,7 +544,7 @@ function Footer() {
         <div>
           <p className="font-display text-lg font-semibold">Dra. Marina Alves</p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Fonoaudióloga · CRFa 2-12345 · Vila Mariana, São Paulo/SP
+            Fonoaudióloga · CRFa 2-12345 · Gramame, João Pessoa/PB
           </p>
           <p className="mt-3 text-xs text-muted-foreground">
             © {new Date().getFullYear()} Todos os direitos reservados.
