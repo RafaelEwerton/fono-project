@@ -30,13 +30,13 @@ const WHATSAPP =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dra. Marina Alves | Fonoaudióloga em João Pessoa" },
+      { title: "Dra. Bianca Cavalcante | Fonoaudióloga em João Pessoa" },
       {
         name: "description",
         content:
           "Clínica de fonoaudiologia com atendimento humanizado para crianças, adultos e idosos: linguagem, fala, voz, audição e deglutição. Agende pelo WhatsApp.",
       },
-      { property: "og:title", content: "Dra. Marina Alves | Fonoaudióloga" },
+      { property: "og:title", content: "Dra. Bianca Cavalcante | Fonoaudióloga" },
       {
         property: "og:description",
         content:
@@ -109,7 +109,7 @@ const depoimentos = [
   {
     nome: "Camila R.",
     texto:
-      "Meu filho tinha muita dificuldade para se comunicar. Em poucos meses ele começou a formar frases e ganhou confiança. A Marina acolhe a família inteira.",
+      "Meu filho tinha muita dificuldade para se comunicar. Em poucos meses ele começou a formar frases e ganhou confiança. A Bianca acolhe a família inteira.",
   },
   {
     nome: "Prof. Antônio S.",
@@ -188,9 +188,9 @@ function Header() {
       <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 sm:flex sm:justify-between">
         <a href="#topo" className="flex min-w-0 items-center gap-2">
           <span className="grid h-9 w-9 shrink-0 place-items-center rounded-2xl gradient-soft text-sm font-bold text-secondary-foreground">
-            MA
+            BA
           </span>
-          <span className="truncate font-display text-base font-semibold">Dra. Marina Alves</span>
+          <span className="truncate font-display text-base font-semibold">Dra. Bianca Cavalcante</span>
         </a>
         <nav className="hidden items-center gap-7 md:flex">
           {nav.map((n) => (
@@ -230,7 +230,7 @@ function Hero() {
           </h1>
           <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
             Avaliação e terapia fonoaudiológica para crianças, adultos e idosos, em um espaço
-            tranquilo e acolhedor em Gramame, João Pessoa.
+            tranquilo e acolhedor em João Pessoa-PB.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a
@@ -266,7 +266,7 @@ function Hero() {
             src={retrato}
             width={1024}
             height={1280}
-            alt="Dra. Marina Alves, fonoaudióloga, sorrindo em seu consultório"
+            alt="Dra. Bianca Cavalcante, fonoaudióloga, sorrindo em seu consultório"
             className="w-full rounded-[2rem] object-cover shadow-xl"
           />
           <div className="surface-soft absolute -bottom-5 left-4 flex items-center gap-3 px-4 py-3 sm:left-8">
@@ -312,7 +312,7 @@ function Sobre() {
           </span>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Escuta atenta, plano claro</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Sou Marina Alves, fonoaudióloga formada pela USP, com especialização em Linguagem
+            Sou Bianca Cavalcante, fonoaudióloga formada pela USP, com especialização em Linguagem
             Infantil e aprimoramento em Voz Clínica. Há mais de uma década acompanho famílias e
             pacientes em cada etapa do processo terapêutico.
           </p>
@@ -542,7 +542,7 @@ function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto grid max-w-6xl gap-6 px-5 py-10 sm:grid-cols-[1fr_auto] sm:items-center">
         <div>
-          <p className="font-display text-lg font-semibold">Dra. Marina Alves</p>
+          <p className="font-display text-lg font-semibold">Dra. Bianca Cavalcante</p>
           <p className="mt-1 text-sm text-muted-foreground">
             Fonoaudióloga · CRFa 2-12345 · Gramame, João Pessoa/PB
           </p>
