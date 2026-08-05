@@ -178,7 +178,7 @@ function Header() {
           <span className="grid h-9 w-9 shrink-0 place-items-center rounded-2xl gradient-soft text-sm font-bold text-secondary-foreground">
             BA
           </span>
-          <span className="truncate font-display text-base font-semibold">Dra. Bianca Cavalcante</span>
+          <span className="truncate font-display text-base font-semibold">Fga. Bianca Cavalcante</span>
         </a>
         <nav className="hidden items-center gap-7 md:flex">
           {nav.map((n) => (
