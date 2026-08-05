@@ -223,7 +223,7 @@ function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 md:grid-cols-2 md:py-20">
         <div>
           <span className="inline-flex items-center gap-2 rounded-full bg-card/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-primary">
-            Fonoaudiologia clínica · CRFa 2-12345
+            FONOAUDIÓLOGIA INFANTOJUVENIL · CRFA 413588
           </span>
           <h1 className="mt-5 text-4xl font-bold leading-tight sm:text-5xl">
             Cuidar da comunicação é cuidar de vínculos
