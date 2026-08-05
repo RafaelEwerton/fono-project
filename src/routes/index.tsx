@@ -53,17 +53,17 @@ const servicos = [
   {
     icon: Baby,
     titulo: "Linguagem infantil",
-    texto: "Atraso de fala, trocas na pronúncia e estimulação da comunicação desde os primeiros anos.",
+    texto: "Atraso de fala, trocas nos sons e estimulação da comunicação desde os primeiros anos.",
   },
   {
     icon: Mic2,
-    titulo: "Voz profissional",
-    texto: "Cuidado e treino vocal para professores, cantores, locutores e quem usa a voz no trabalho.",
+    titulo: "Atendimento para jovens e adultos",
+    texto: "Atendimento individualizado para diferentes necessidades de comunicação, linguagem, fala, leitura, escrita e cognição.",
   },
   {
     icon: Ear,
-    titulo: "Audição",
-    texto: "Triagem auditiva, orientação sobre aparelhos e reabilitação para melhor compreensão.",
+    titulo: "Seletividade Alimentar",
+    texto: "A atuação fonoaudiológica na seletividade alimentar é voltada principalmente para compreender e tratar as dificuldades relacionadas às habilidades orais, sensoriais, motoras e comunicativas envolvidas na alimentação. ",
   },
   {
     icon: Brain,
@@ -347,7 +347,7 @@ function Servicos() {
         <SectionTitle
           eyebrow="Serviços"
           title="Cuidado para cada fase da vida"
-          text="Atendimentos presenciais em Gramame e sessões online para todo o Brasil."
+          text="Atendimentos presenciais em João Pessoa -PB  e sessões online para todo o Brasil."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {servicos.map((s) => (
