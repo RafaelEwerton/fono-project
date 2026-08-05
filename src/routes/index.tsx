@@ -264,7 +264,7 @@ function Hero() {
         </div>
         <div className="relative">
           <img
-            src={retrato}
+            src={retratoAsset.url}
             width={1024}
             height={1280}
             alt="Dra. Bianca Cavalcante, fonoaudióloga, sorrindo em seu consultório"
