@@ -11,8 +11,6 @@ import {
   Mic2,
   Ear,
   Brain,
-  Soup,
-  Users,
   Star,
   ChevronDown,
   Clock,
@@ -69,16 +67,6 @@ const servicos = [
     icon: Brain,
     titulo: "Neurofuncional",
     texto: "Reabilitação da fala e da linguagem após AVC, TCE e em quadros neurológicos.",
-  },
-  {
-    icon: Soup,
-    titulo: "Deglutição",
-    texto: "Avaliação e terapia das dificuldades para engolir, com foco em segurança alimentar.",
-  },
-  {
-    icon: Users,
-    titulo: "Orientação familiar",
-    texto: "Encontros com a família e a escola para dar continuidade ao cuidado no dia a dia.",
   },
 ];
 
