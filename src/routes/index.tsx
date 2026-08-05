@@ -230,7 +230,8 @@ function Hero() {
           </h1>
           <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
             Avaliação e terapia fonoaudiológica para crianças, adultos e idosos, em um espaço
-            tranquilo e acolhedor em João Pessoa-PB.
+            tranquilo e acolhedor em João Pessoa-PB ou no conforto da sua casa, por meio do
+            atendimento domiciliar.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a
