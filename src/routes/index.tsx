@@ -18,7 +18,7 @@ import {
   Clock,
 } from "lucide-react";
 
-import retrato from "@/assets/profissional.jpg";
+import retratoAsset from "@/assets/profissional.jpg.asset.json";
 import consultorio from "@/assets/consultorio.jpg";
 import blog1 from "@/assets/blog-1.jpg";
 import blog2 from "@/assets/blog-2.jpg";
