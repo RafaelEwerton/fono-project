@@ -301,9 +301,10 @@ function Sobre() {
           </span>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Escuta atenta, plano claro</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Sou Bianca Cavalcante, fonoaudióloga formada pela USP, com especialização em Linguagem
-            Infantil e aprimoramento em Voz Clínica. Há mais de uma década acompanho famílias e
-            pacientes em cada etapa do processo terapêutico.
+            Sou Bianca Cavalcante, fonoaudióloga formada pela Universidade Federal da Paraíba, com
+            especialização em Linguagem Infantil e aprimoramentos em avaliação e intervenção em
+            linguagem. Há mais de cinto anos atuo acompanhando famílias e pacientes em cada etapa do
+            processo terapêutico.
           </p>
           <p className="mt-3 leading-relaxed text-muted-foreground">
             Meu trabalho parte de uma avaliação cuidadosa e de objetivos combinados com quem chega
@@ -312,9 +313,9 @@ function Sobre() {
           </p>
           <ul className="mt-6 space-y-2 text-sm">
             {[
-              "Especialista em Linguagem Infantil (CFFa)",
-              "Aprimoramento em Voz Clínica e Terapia Vocal",
-              "Formação em Motricidade Orofacial",
+              "Especialista em Linguagem Infantil ",
+              "Aprimoramentos em Avaliação e Intervenção em linguagem;",
+              "Formação PROMPT",
             ].map((i) => (
               <li key={i} className="flex items-center gap-2">
                 <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
