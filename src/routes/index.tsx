@@ -537,7 +537,7 @@ function Footer() {
         </div>
         <div className="flex gap-3">
           {[
-            { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
+            { icon: Instagram, label: "Instagram", href: "https://instagram.com/Biancacavalcant_" },
             { icon: Facebook, label: "Facebook", href: "https://facebook.com" },
             { icon: MessageCircle, label: "WhatsApp", href: WHATSAPP },
           ].map((s) => (
