@@ -100,9 +100,9 @@ const depoimentos = [
       "Segui suas orientações e meu filho agora é um tagarela.",
   },
   {
-    nome: "Prof. Antônio S.",
+    nome: "I.S.",
     texto:
-      "Dou aula há vinte anos e vivia com rouquidão. O trabalho vocal mudou minha rotina: termino o dia sem dor e com a voz firme.",
+      "Quero deixar registrada toda a minha gratidão à Bianca. Ela acompanhou minha filha durante três anos e, nesse tempo, demonstrou ser uma profissional excepcional. Sempre foi muito dedicada, comprometida, atenciosa e, acima de tudo, tratou minha filha com muito carinho e respeito. Sua competência e amor pelo que faz fizeram toda a diferença em nossa caminhada. Só tenho a agradecer por todo o cuidado e dedicação. É uma profissional que indico de olhos fechados. Que Deus continue abençoando sua vida e sua trajetória!",
   },
   {
     nome: "Helena M.",
