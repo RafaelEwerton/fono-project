@@ -95,9 +95,9 @@ const faqs = [
 
 const depoimentos = [
   {
-    nome: "Camila R.",
+    nome: "M.G.   ",
     texto:
-      "Meu filho tinha muita dificuldade para se comunicar. Em poucos meses ele começou a formar frases e ganhou confiança. A Bianca acolhe a família inteira.",
+      "Segui suas orientações e meu filho agora é um tagarela.",
   },
   {
     nome: "Prof. Antônio S.",
