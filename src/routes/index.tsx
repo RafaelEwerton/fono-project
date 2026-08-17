@@ -23,7 +23,7 @@ import blog2 from "@/assets/blog-2.jpg";
 import blog3 from "@/assets/blog-3.jpg";
 
 const WHATSAPP =
-  "https://wa.me/5511999998888?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.";
+  "https://wa.me/5583991073398?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -458,14 +458,10 @@ function Contato() {
           </p>
           <ul className="mt-8 space-y-4 text-sm">
             <li className="flex items-center gap-3">
-              <Phone className="h-5 w-5 shrink-0 text-primary" /> (11) 99999-8888
+              <Phone className="h-5 w-5 shrink-0 text-primary" /> (83) 99107-3398
             </li>
             <li className="flex items-center gap-3">
-              <Mail className="h-5 w-5 shrink-0 text-primary" /> contato@marinaalvesfono.com.br
-            </li>
-            <li className="flex items-center gap-3">
-              <MapPin className="h-5 w-5 shrink-0 text-primary" /> Rua das Acácias, 120 - Gramame,
-              João Pessoa/PB
+              <Mail className="h-5 w-5 shrink-0 text-primary" /> biancaaraujo198@gmail.com
             </li>
             <li className="flex items-center gap-3">
               <Clock className="h-5 w-5 shrink-0 text-primary" /> Seg a sex, das 9h às 18h
@@ -533,7 +529,7 @@ function Footer() {
         <div>
           <p className="font-display text-lg font-semibold">Dra. Bianca Cavalcante</p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Fonoaudióloga · CRFa 2-12345 · Gramame, João Pessoa/PB
+            Fonoaudióloga · CRFa 2-12345 · João Pessoa/PB
           </p>
           <p className="mt-3 text-xs text-muted-foreground">
             © {new Date().getFullYear()} Todos os direitos reservados.
