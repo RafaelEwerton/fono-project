@@ -106,8 +106,7 @@ const depoimentos = [
   },
   {
     nome: "Helena M.",
-    texto:
-      "Depois do AVC do meu pai, encontramos aqui paciência e método. Ele voltou a conversar conosco na mesa do almoço.",
+    texto: "Profissional atenta e humanizada!",
   },
 ];
 
