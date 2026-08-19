@@ -16,7 +16,7 @@ import {
   Clock,
 } from "lucide-react";
 
-import retratoAsset from "@/assets/profissional.jpg.asset.json";
+import retratoAsset from "@/assets/retrato.jpg";
 import consultorio from "@/assets/consultorio.jpg";
 import blog1 from "@/assets/blog-1.jpg";
 import blog2 from "@/assets/blog-2.jpg";
@@ -28,13 +28,13 @@ const WHATSAPP =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dra. Bianca Cavalcante | Fonoaudióloga em João Pessoa" },
+      { title: "Fga. Bianca Cavalcante | Fonoaudióloga em João Pessoa" },
       {
         name: "description",
         content:
           "Clínica de fonoaudiologia com atendimento humanizado para crianças, adultos e idosos: linguagem, fala, voz, audição e deglutição. Agende pelo WhatsApp.",
       },
-      { property: "og:title", content: "Dra. Bianca Cavalcante | Fonoaudióloga" },
+      { property: "og:title", content: "Fga. Bianca Cavalcante | Fonoaudióloga" },
       {
         property: "og:description",
         content:
@@ -251,10 +251,10 @@ function Hero() {
         </div>
         <div className="relative">
           <img
-            src={retratoAsset.url}
+            src={retratoAsset}
             width={1024}
             height={1280}
-            alt="Dra. Bianca Cavalcante, fonoaudióloga, sorrindo em seu consultório"
+            alt="Fga. Bianca Cavalcante, fonoaudióloga, sorrindo em seu consultório"
             className="w-full rounded-[2rem] object-cover shadow-xl"
           />
           <div className="surface-soft absolute -bottom-5 left-4 flex items-center gap-3 px-4 py-3 sm:left-8">
@@ -300,21 +300,22 @@ function Sobre() {
           </span>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Escuta atenta, plano claro</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Sou Bianca Cavalcante, fonoaudióloga formada pela Universidade Federal da Paraíba, com
-            especialização em Linguagem Infantil e aprimoramentos em avaliação e intervenção em
-            linguagem. Há mais de cinto anos atuo acompanhando famílias e pacientes em cada etapa do
-            processo terapêutico.
+            Sou Bianca Cavalcante, fonoaudióloga formada pela Universidade Federal da Paraíba, 
+            especialista em Linguagem Infantil e com formação complementar em PROMPT, PECS, ABA, Denver e Bandagem Elástica. 
+            Ao longo da minha trajetória, venho acompanhando crianças, 
+            adultos e famílias em diferentes desafios relacionados à comunicação, à linguagem e à alimentação.
           </p>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Meu trabalho parte de uma avaliação cuidadosa e de objetivos combinados com quem chega
-            até aqui. Cada sessão é planejada para ser leve, com resultados que aparecem na vida
-            real: na escola, no trabalho e à mesa em família.
+            Meu trabalho começa com uma avaliação cuidadosa e com a definição de 
+            objetivos junto a cada pessoa que chega até aqui. Cada sessão é planejada 
+            para ser leve e acolhedora, buscando resultados que 
+            façam diferença na vida real: na escola, no trabalho e à mesa, junto à família.
           </p>
           <ul className="mt-6 space-y-2 text-sm">
             {[
-              "Especialista em Linguagem Infantil ",
-              "Aprimoramentos em Avaliação e Intervenção em linguagem;",
-              "Formação PROMPT",
+              //"Especialista em Linguagem Infantil ",
+              //"Aprimoramentos em Avaliação e Intervenção em linguagem;",
+              //"Formação PROMPT",
             ].map((i) => (
               <li key={i} className="flex items-center gap-2">
                 <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
@@ -527,9 +528,9 @@ function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto grid max-w-6xl gap-6 px-5 py-10 sm:grid-cols-[1fr_auto] sm:items-center">
         <div>
-          <p className="font-display text-lg font-semibold">Dra. Bianca Cavalcante</p>
+          <p className="font-display text-lg font-semibold">Fga. Bianca Cavalcante</p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Fonoaudióloga · CRFa 2-12345 · João Pessoa/PB
+            Fonoaudióloga · CRFA 413588 · João Pessoa/PB
           </p>
           <p className="mt-3 text-xs text-muted-foreground">
             © {new Date().getFullYear()} Todos os direitos reservados.
@@ -538,7 +539,7 @@ function Footer() {
         <div className="flex gap-3">
           {[
             { icon: Instagram, label: "Instagram", href: "https://instagram.com/Biancacavalcant_" },
-            { icon: Facebook, label: "Facebook", href: "https://facebook.com" },
+            //{ icon: Facebook, label: "Facebook", href: "https://facebook.com" },
             { icon: MessageCircle, label: "WhatsApp", href: WHATSAPP },
           ].map((s) => (
             <a
