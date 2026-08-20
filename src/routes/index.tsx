@@ -174,9 +174,13 @@ function Header() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
       <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 sm:flex sm:justify-between">
         <a href="#topo" className="flex min-w-0 items-center gap-2">
-          <span className="grid h-9 w-9 shrink-0 place-items-center rounded-2xl gradient-soft text-sm font-bold text-secondary-foreground">
-            BA
-          </span>
+          <img
+            src="/favicon.png"
+            alt=""
+            width={36}
+            height={36}
+            className="h-9 w-9 shrink-0 rounded-2xl object-contain"
+          />
           <span className="truncate font-display text-base font-semibold">Fga. Bianca Cavalcante</span>
         </a>
         <nav className="hidden items-center gap-7 md:flex">
@@ -216,9 +220,9 @@ function Hero() {
             Cuidar da comunicação é cuidar de vínculos
           </h1>
           <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Avaliação e terapia fonoaudiológica para crianças, adultos e idosos, em um espaço
-            tranquilo e acolhedor em João Pessoa-PB ou no conforto da sua casa, por meio do
-            atendimento domiciliar.
+            Avaliação e terapia fonoaudiológica para crianças e adultos, com um atendimento individualizado, 
+            acolhedor e pensado para cada necessidade. 
+            Em João Pessoa-PB, com opção de atendimento domiciliar para proporcionar mais conforto e praticidade.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a
